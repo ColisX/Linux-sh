@@ -1,0 +1,5 @@
+sudo cat /root/Service/Service-start/1start.sh > /usr/local/bin/脚本名称     #导入内容
+
+sudo chmod +x /usr/local/bin/de-start                #给予命令
+
+sudo mv /usr/local/bin/de-start /usr/local/bin/de-start.bak    #备份
